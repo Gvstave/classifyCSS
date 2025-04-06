@@ -25,9 +25,11 @@ To use `classifyCSS` in your project, include the `classify.js` script in your H
 ```html
 <script src="https://github.com/Gvstave/classifyCSS/raw/main/classify.js"></script>
 
+
 ## Usage
 
 Add classes to your HTML elements in the format property[modifier] to apply dynamic styles. For example:
+
 
 ```html
 <!DOCTYPE html>
@@ -46,7 +48,9 @@ This body has reset styles applied.
 </body>
 </html>
 
+
 In this example, the The body element will have its margin, padding, and box-sizing reset. the div will have a blue background color, a font size of 20px, and padding of 10px 20px.
+
 
 ## License
 
