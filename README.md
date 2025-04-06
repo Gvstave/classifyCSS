@@ -2,7 +2,7 @@
 
 A library to apply dynamic styles in the format `property[modifier]`.
 
-### Advantages
+## Advantages
 
 - **Dynamic Styling**: Allows the application of CSS properties dynamically through class names.
 - **Ease of Use**: Simplifies the process of adding CSS styles directly within the HTML, reducing the need for separate CSS files.
@@ -10,7 +10,7 @@ A library to apply dynamic styles in the format `property[modifier]`.
 - **Reset Styles**: Provides a convenient way to reset styles with a single class.
 - **Familiar Concept**: Uses the concept that you already know in CSS and provides ready-to-use classes like `reset`.
 
-### Limitations
+## Limitations
 
 - **Limited to Inline Styles**: Styles are applied as inline styles, which can lead to specificity issues.
 - **No CSS Preprocessing**: Does not support CSS preprocessing like SASS or LESS.
@@ -18,7 +18,7 @@ A library to apply dynamic styles in the format `property[modifier]`.
 - **Class Format Dependency**: Requires classes to follow a specific format (`property[modifier]`), which might not be intuitive for all users.
 - **Limited Advanced CSS Support**: Does not handle advanced CSS properties and modifiers.
 
-### Installation
+## Installation
 
 To use `classifyCSS` in your project, include the `classify.js` script in your HTML file:
 
