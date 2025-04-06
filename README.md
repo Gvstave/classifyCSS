@@ -18,11 +18,9 @@ A library to apply dynamic styles in the format `property[modifier]`.
 - **Class Format Dependency**: Requires classes to follow a specific format (`property[modifier]`), which might not be intuitive for all users.
 - **Limited Advanced CSS Support**: Does not handle advanced CSS properties and modifiers.
 
-```html
-<script src="https://github.com/Gvstave/classifyCSS/raw/main/classify.js"></script>
-
-
 ### Installation
+
+<script src="https://github.com/Gvstave/classifyCSS/raw/main/classify.js"></script>
 
 To use `classifyCSS` in your project, include the `classify.js` script in your HTML file:
 
@@ -30,8 +28,6 @@ To use `classifyCSS` in your project, include the `classify.js` script in your H
 
 Add classes to your HTML elements in the format property[modifier] to apply dynamic styles. For example:
 
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,9 +44,7 @@ This body has reset styles applied.
 </body>
 </html>
 
-
 In this example, the The body element will have its margin, padding, and box-sizing reset. the div will have a blue background color, a font size of 20px, and padding of 10px 20px.
-
 
 ## License
 
