@@ -55,3 +55,17 @@ In this example, the The body element will have its margin, padding, and box-siz
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.
+
+## Contributing
+
+We welcome contributions from the community! If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and commit them with clear and descriptive messages.
+4. Push your changes to your forked repository.
+5. Open a pull request to the main repository's `main` branch.
+
+Please make sure your code is properly tested and does not break this project. If you're unsure about anything, feel free to open an issue.
+
+Thank you for contributing!
