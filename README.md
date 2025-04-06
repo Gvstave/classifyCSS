@@ -42,7 +42,7 @@ Add classes to your HTML elements in the format property[modifier] to apply dyna
     <script src="https://github.com/Gvstave/classifyCSS/classify.js"></script>
 </head>
 <body class="class[reset]">
-This body has reset styles applied.
+    This body element has reset styles applied.
     <div class="background-color[blue] font-size[20px] padding[10px-20px]">
         This div has dynamic styles applied.
     </div>
