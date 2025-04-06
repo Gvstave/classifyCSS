@@ -18,13 +18,13 @@ A library to apply dynamic styles in the format `property[modifier]`.
 - **Class Format Dependency**: Requires classes to follow a specific format (`property[modifier]`), which might not be intuitive for all users.
 - **Limited Advanced CSS Support**: Does not handle advanced CSS properties and modifiers.
 
-### Installation
-
-To use `classifyCSS` in your project, include the `classify.js` script in your HTML file:
-
 ```html
 <script src="https://github.com/Gvstave/classifyCSS/raw/main/classify.js"></script>
 
+
+### Installation
+
+To use `classifyCSS` in your project, include the `classify.js` script in your HTML file:
 
 ## Usage
 
