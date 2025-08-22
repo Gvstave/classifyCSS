@@ -1,150 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <script>
-      hljs.highlightAll();
-    </script>
-    <title>Document</title>
-  </head>
 
-  <body
-    class="class[reset] font-size[14px] font-family[Arial] line-height[1.5] color[#032] background-color[#fff] "
-  >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+  <title>Document</title>
+</head>
+
+<body class="class[reset] font-size[14px] font-family[Arial, sans-serif] line-height[1.5] color[#032] background-color[#fff] ">
+  <div
+    class="line-height[1.5] line-height[1.5] font-size[16px] word-wrap[break-word] max-width[1012px] margin[auto 32px] padding[0px-16px]">
     <div
-      class="line-height[1.5] line-height[1.5] font-size[16px] word-wrap[break-word] max-width[1012px] margin[auto 32px] padding[0px-16px]"
-    >
-    <div class="font-weight[light] font-size[1.3em] text-align[center] padding[20px-0px] border-bottom[1px-solid-#eaecef]">
+      class="font-weight[light] font-size[1.3em] text-align[center] padding[20px-0px] border-bottom[1px-solid-#eaecef]">
       Note: This page is styled with classifyCSS.
     </div>
-      <h1
-        class="font-size[2em] padding-bottom[0.3em] border-bottom[1px-solid-#eaecef] font-weight[600] line-height[1.25] margin-bottom[16px]"
-      >
-        classifyCSS
-      </h1>
-      <p class="margin-bottom[16px]">
-        A library to apply dynamic styles in the format
+    <h1
+      class="font-size[2em] padding-bottom[0.3em] border-bottom[1px-solid-#eaecef] font-weight[600] line-height[1.25] margin-bottom[16px]">
+      classifyCSS
+    </h1>
+    <p class="margin-bottom[16px]">
+      A library to apply dynamic styles in the format
+      <code
+        class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]">property[modifier]</code>.
+    </p>
+    <h2
+      class="padding-bottom[0.3em] font-size[1.5em] border-bottom[1px-solid-#eaecef] margin-bottom[16px] margin-top[24px] font-weight[600] line-height[1.25]">
+      Advantages
+    </h2>
+    <ul class="padding-left[2em]">
+      <li>
+        <strong class="font-weight[600]">Dynamic Styling:</strong>
+        Allows the application of CSS properties dynamically through class
+        names.
+      </li>
+      <li>
+        <strong class="font-weight[600]">Ease of Use:</strong>
+        Simplifies the process of adding CSS styles directly within the HTML,
+        reducing the need for separate CSS files.
+      </li>
+      <li>
+        <strong class="font-weight[600]">Modular: </strong> Encourages the use
+        of modular and reusable CSS classes.
+      </li>
+      <li>
+        <strong class="font-weight[600]">Reset Styles:</strong>
+        Provides a convenient way to reset styles with a single class.
+      </li>
+      <li>
+        <strong class="font-weight[600]">Familiar Concept: </strong>Uses the
+        concept that you already know in CSS and provides ready-to-use classes
+        like
         <code
-          class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]"
-          >property[modifier]</code>.
-      </p>
-      <h2
-        class="padding-bottom[0.3em] font-size[1.5em] border-bottom[1px-solid-#eaecef] margin-bottom[16px] margin-top[24px] font-weight[600] line-height[1.25]"
-      >
-        Advantages
-      </h2>
-      <ul class="padding-left[2em]">
-        <li>
-          <strong class="font-weight[600]">Dynamic Styling:</strong>
-          Allows the application of CSS properties dynamically through class
-          names.
-        </li>
-        <li>
-          <strong class="font-weight[600]">Ease of Use:</strong>
-          Simplifies the process of adding CSS styles directly within the HTML,
-          reducing the need for separate CSS files.
-        </li>
-        <li>
-          <strong class="font-weight[600]">Modular: </strong> Encourages the use
-          of modular and reusable CSS classes.
-        </li>
-        <li>
-          <strong class="font-weight[600]">Reset Styles:</strong>
-          Provides a convenient way to reset styles with a single class.
-        </li>
-        <li>
-          <strong class="font-weight[600]">Familiar Concept: </strong>Uses the
-          concept that you already know in CSS and provides ready-to-use classes
-          like
-          <code
-            class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]"
-            >reset</code
-          >.
-        </li>
-      </ul>
-      <h2
-        class="padding-bottom[0.3em] margin-top[24px] margin-bottom[16px] font-weight[600] line-height[1.25] font-size[1.5em] border-bottom[1px-solid-#eaecef]"
-      >
-        Limitations
-      </h2>
-      <ul class="padding-left[2em] margin-bottom[16px]">
-        <li>
-          <strong class="font-weight[600]">Limited to Inline Styles:</strong>
-          Styles are applied as inline styles, which can lead to specificity
-          issues.
-        </li>
-        <li>
-          <strong class="font-weight[600]">No CSS Preprocessing: </strong>Does
-          not support CSS preprocessing like SASS or LESS.
-        </li>
-        <li>
-          <strong class="font-weight[600]">Performance Concerns: </strong>
-          Performance may degrade with a large number of elements due to the use
-          of JavaScript for applying styles.
-        </li>
-        <li>
-          <strong class="font-weight[600]">Class Format Dependency: </strong>
-          Requires classes to follow a specific format (<code
-            class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]"
-            >property[modifier]</code
-          >), which might not be intuitive for all users.
-        </li>
-        <li>
-          <strong>Limited Advanced CSS Support: </strong>Does not handle
-          advanced CSS properties and modifiers.
-        </li>
-      </ul>
-      <h2
-        class="padding-bottom[0.3em] margin-top[24px] margin-bottom[16px] font-weight[600] line-height[1.25] font-size[1.5em] border-bottom[1px-solid-#eaecef]"
-      >
-        Installation
-      </h2>
-      <p class="margin-bottom[16px]">
-        To use
-        <code
-          class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]"
-          >classifyCSS</code
-        >
-        in your project, include the<code
-          class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]"
-          >classify.js</code
-        >
-        script in your HTML file:
-      </p>
-      <pre>
+          class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]">reset</code>.
+      </li>
+    </ul>
+    <h2
+      class="padding-bottom[0.3em] margin-top[24px] margin-bottom[16px] font-weight[600] line-height[1.25] font-size[1.5em] border-bottom[1px-solid-#eaecef]">
+      Limitations
+    </h2>
+    <ul class="padding-left[2em] margin-bottom[16px]">
+      <li>
+        <strong class="font-weight[600]">Limited to Inline Styles:</strong>
+        Styles are applied as inline styles, which can lead to specificity
+        issues.
+      </li>
+      <li>
+        <strong class="font-weight[600]">No CSS Preprocessing: </strong>Does
+        not support CSS preprocessing like SASS or LESS.
+      </li>
+      <li>
+        <strong class="font-weight[600]">Performance Concerns: </strong>
+        Performance may degrade with a large number of elements due to the use
+        of JavaScript for applying styles.
+      </li>
+      <li>
+        <strong class="font-weight[600]">Class Format Dependency: </strong>
+        Requires classes to follow a specific format (<code
+          class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]">property[modifier]</code>),
+        which might not be intuitive for all users.
+      </li>
+      <li>
+        <strong>Limited Advanced CSS Support: </strong>Does not handle
+        advanced CSS properties and modifiers.
+      </li>
+    </ul>
+    <h2
+      class="padding-bottom[0.3em] margin-top[24px] margin-bottom[16px] font-weight[600] line-height[1.25] font-size[1.5em] border-bottom[1px-solid-#eaecef]">
+      Installation
+    </h2>
+    <p class="margin-bottom[16px]">
+      To use
+      <code
+        class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]">classifyCSS</code>
+      in your project, include the<code
+        class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]">classify.js</code>
+      script in your HTML file:
+    </p>
+    <pre>
 <code>
 &lt;script src="https://github.com/Gvstave/classifyCSS/classify.js"&gt;&lt;/script&gt;
 </code>
 </pre>
-      <p class="margin-bottom[16px]">
-        To use
-        <code
-          class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]"
-          >classifyCSS</code
-        >
-        in your project, include the
-        <code
-          class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]"
-          >classify.js</code
-        >
-        script in your HTML file:
-      </p>
-      <h2
-        class="padding-bottom[0.3em] margin-top[24px] margin-bottom[16px] font-weight[600] line-height[1.25] font-size[1.5em] border-bottom[1px-solid-#eaecef]"
-      >
-        Usage
-      </h2>
-      <p class="margin-bottom[16px]">
-        Add classes to your HTML elements in the format property[modifier] to
-        apply dynamic styles. For example:
-      </p>
-      <pre>
+    <p class="margin-bottom[16px]">
+      To use
+      <code
+        class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]">classifyCSS</code>
+      in your project, include the
+      <code
+        class="language-plaintext highlighter-rouge padding[0.2em-0.4em] margin[0px] font-size[85%] background-color[#1b1f230d] border-radius[3px]">classify.js</code>
+      script in your HTML file:
+    </p>
+    <h2
+      class="padding-bottom[0.3em] margin-top[24px] margin-bottom[16px] font-weight[600] line-height[1.25] font-size[1.5em] border-bottom[1px-solid-#eaecef]">
+      Usage
+    </h2>
+    <p class="margin-bottom[16px]">
+      Add classes to your HTML elements in the format property[modifier] to
+      apply dynamic styles. For example:
+    </p>
+    <pre>
 <code class="language-html">
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -163,45 +142,45 @@
 &lt;/html&gt;
 </code>
 </pre>
-      <p class="margin-bottom[16px]">
-        In this example, the The body element will have its margin, padding, and
-        box-sizing reset. the div will have a blue background color, a font size
-        of 20px, and padding of 10px 20px.
-      </p>
-      <h2
-        class="padding-bottom[0.3em] margin-top[24px] margin-bottom[16px] font-weight[600] line-height[1.25] font-size[1.5em] border-bottom[1px-solid-#eaecef]"
-      >
-        License
-      </h2>
-      <p class="margin-bottom[16px]">
-        This project is licensed under the MIT License. See the
-        <a class="color[#0366d6] text-decoration[none]" href="https://choosealicense.com/licenses/mit/">LICENSE</a> file for
-        details.
-      </p>
-      <h2
-        class="padding-bottom[0.3em] margin-top[24px] margin-bottom[16px] font-weight[600] line-height[1.25] font-size[1.5em] border-bottom[1px-solid-#eaecef]"
-      >
-        Contributing
-      </h2>
-      <p class="margin-bottom[16px]">
-        We welcome contributions from the community! If you would like to
-        contribute to this project, please follow these steps:
-      </p>
-      <ol class="padding-left[2em]">
-        <li>Fork the repository.</li>
-        <li>Create a new branch for your feature or bugfix.</li>
-        <li>
-          Make your changes and commit them with clear and descriptive messages.
-        </li>
-        <li>Push your changes to your forked repository.</li>
-        <li>Open a pull request to the div repository's `div` branch.</li>
-      </ol>
-      <p class="margin-bottom[16px]">
-        Please make sure your code is properly tested and does not break this
-        project. If you're unsure about anything, feel free to open an issue.
-      </p>
-      <p class="margin-bottom[16px]">Thank you for contributing!</p>
-    </div>
-  </body>
-  <script src="../classify.js"></script>
+    <p class="margin-bottom[16px]">
+      In this example, the The body element will have its margin, padding, and
+      box-sizing reset. the div will have a blue background color, a font size
+      of 20px, and padding of 10px 20px.
+    </p>
+    <h2
+      class="padding-bottom[0.3em] margin-top[24px] margin-bottom[16px] font-weight[600] line-height[1.25] font-size[1.5em] border-bottom[1px-solid-#eaecef]">
+      License
+    </h2>
+    <p class="margin-bottom[16px]">
+      This project is licensed under the MIT License. See the
+      <a class="color[#0366d6] text-decoration[none]" href="https://choosealicense.com/licenses/mit/">LICENSE</a> file
+      for
+      details.
+    </p>
+    <h2
+      class="padding-bottom[0.3em] margin-top[24px] margin-bottom[16px] font-weight[600] line-height[1.25] font-size[1.5em] border-bottom[1px-solid-#eaecef]">
+      Contributing
+    </h2>
+    <p class="margin-bottom[16px]">
+      We welcome contributions from the community! If you would like to
+      contribute to this project, please follow these steps:
+    </p>
+    <ol class="padding-left[2em]">
+      <li>Fork the repository.</li>
+      <li>Create a new branch for your feature or bugfix.</li>
+      <li>
+        Make your changes and commit them with clear and descriptive messages.
+      </li>
+      <li>Push your changes to your forked repository.</li>
+      <li>Open a pull request to the div repository's `div` branch.</li>
+    </ol>
+    <p class="margin-bottom[16px]">
+      Please make sure your code is properly tested and does not break this
+      project. If you're unsure about anything, feel free to open an issue.
+    </p>
+    <p class="margin-bottom[16px]">Thank you for contributing!</p>
+  </div>
+</body>
+<script src="../classify.js"></script>
+
 </html>
